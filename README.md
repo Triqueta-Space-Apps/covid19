@@ -3,6 +3,7 @@
 ## Requisitos
 > - Visual Studio Code <br>
 > - Node Js <br>
+> - Npm ou Yarn <br>
 > - Oracle Database <br>
 > - AWS <br>
 
