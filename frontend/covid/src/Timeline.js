@@ -4,7 +4,7 @@ import Slider from '@material-ui/core/Slider';
 
 const PrettoSlider = withStyles({
   root: {
-    color: '#00809D',
+    color: '#fc3d21',
     height: 8,
     width: '80vw'
   },
@@ -33,8 +33,18 @@ const PrettoSlider = withStyles({
   },
 })(Slider);
 
+function valuetext(value) {
+  return `${value}`;
+}
+
 export default function CustomizedSlider() {
+
   return (
-      <PrettoSlider valueLabelDisplay="auto" step={10} aria-label="pretto slider" defaultValue={5} />
+    <PrettoSlider
+      valueLabelDisplay="auto"
+      getAriaValueText={valuetext}
+      min={1}
+      max={12}
+      defaultValue={2} />
   );
 }
