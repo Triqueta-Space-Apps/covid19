@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Demo from './demo.js';
 import Timeline from './Timeline';
-import Welcome from './Welcome';
-import Map from './map/';
+import Welcome from './resources/Header/';
+import Map from './resources/map';
 
 function App() {
   return (
